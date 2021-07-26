@@ -1,0 +1,23 @@
+.Royale{
+    background-color: rgb(100, 207, 11);
+    color: rgb(237, 236, 241);
+}
+.Royale:hover{
+    background-color: rgb(4, 18, 97);
+    color: whitesmoke;
+}
+
+canvas{
+    animation-name: Darkrai;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes Darkrai{
+    from {box-shadow: 50px 50px 90px darkblue;}
+    to   {box-shadow: 45px 45px 80px rgb(0, 4, 7)}
+}
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/moustache-icons-black-moustaches-man-accessories-props-barber-shop-gentlemen-model-face-hairs-isolated-hipster-fashion-vector-180771626.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
